@@ -1,0 +1,11 @@
+nodejs:
+  applicationPort: 3040
+  aadIdentityName: justicetranscribe
+  ingressHost: justicetranscribe-frontend.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/justicetranscribe/frontend:latest'
+  #  Uncomment once the vault containing the app insights key has been set up
+  #  keyVaults:
+  #    justicetranscribe:
+  #      secrets:
+  #        - AppInsightsInstrumentationKey
+  environment:

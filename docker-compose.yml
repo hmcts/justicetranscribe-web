@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   postgres:
     image: postgres:18-alpine
@@ -35,3 +36,19 @@ services:
 volumes:
   postgres_data:
   redis_data:
+=======
+version: '2'
+
+services:
+  # TODO: change this name to match the name of your app
+  frontend:
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    ports:
+      # TODO: change this mapping to map the port your application listens on
+      - '3040:3040'
+>>>>>>> 2ed0fdee0936456c23c949bfb25ac5ec9c563e38

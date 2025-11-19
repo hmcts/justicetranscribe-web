@@ -1,3 +1,16 @@
+<<<<<<< HEAD
 [*.{js,ts,json,md,html,njk,css,scss}]
 indent_style = space
 indent_size = 2
+=======
+# http://editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+>>>>>>> 2ed0fdee0936456c23c949bfb25ac5ec9c563e38

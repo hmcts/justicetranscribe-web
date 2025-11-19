@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependency directories
 node_modules/
 
@@ -45,3 +46,45 @@ lcov.info
 **/Chart.lock
 **/charts/*.tgz
 values.preview.yaml
+=======
+node_modules/
+.nyc_output
+.sass-cache
+*.css
+
+.idea/
+*.iml
+
+*swp
+*log
+.DS_Store
+
+src/main/public/img/lib/*
+src/main/public/js/lib/**/*.js
+src/main/public/stylesheets/lib/*
+src/main/resources/localhost-ssl
+
+node-rpm-packaging/
+mochawesome-report/
+npm-debug.log.*
+
+.project
+.settings/
+dist/
+public/
+src/main/views/govuk
+coverage/
+smoke-output/
+functional-output/
+version
+
+.eslintcache
+
+.yarn/*
+!.yarn/cache/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+>>>>>>> 2ed0fdee0936456c23c949bfb25ac5ec9c563e38
