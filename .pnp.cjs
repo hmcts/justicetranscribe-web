@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@babel/core", "npm:7.28.5"],\
-          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.0"],\
+          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5"],\
           ["@babel/preset-env", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:0.10.0"],\
@@ -277,18 +277,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@babel/eslint-parser", [\
-      ["npm:7.28.0", {\
-        "packageLocation": "./.yarn/cache/@babel-eslint-parser-npm-7.28.0-a4bf882695-3a00159a2f.zip/node_modules/@babel/eslint-parser/",\
+      ["npm:7.28.5", {\
+        "packageLocation": "./.yarn/cache/@babel-eslint-parser-npm-7.28.5-8ec05c7754-ec8eb061f3.zip/node_modules/@babel/eslint-parser/",\
         "packageDependencies": [\
-          ["@babel/eslint-parser", "npm:7.28.0"]\
+          ["@babel/eslint-parser", "npm:7.28.5"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.0", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-eslint-parser-virtual-4e87eb8851/0/cache/@babel-eslint-parser-npm-7.28.0-a4bf882695-3a00159a2f.zip/node_modules/@babel/eslint-parser/",\
+      ["virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-eslint-parser-virtual-acd60ed44f/0/cache/@babel-eslint-parser-npm-7.28.5-8ec05c7754-ec8eb061f3.zip/node_modules/@babel/eslint-parser/",\
         "packageDependencies": [\
           ["@babel/core", "npm:7.28.5"],\
-          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.0"],\
+          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5"],\
           ["@nicolo-ribaudo/eslint-scope-5-internals", "npm:5.1.1-v1"],\
           ["@types/babel__core", null],\
           ["@types/eslint", null],\
@@ -13137,7 +13137,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@babel/core", "npm:7.28.5"],\
-          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.0"],\
+          ["@babel/eslint-parser", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5"],\
           ["@babel/preset-env", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:7.28.5"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:51886c2a15936fe7231dc7d4245c99326ba860156e42e1350f3a8f9728dd9aa98e83485a52a10cf96d2a5f832471e99e4ea048d9d7e11000fc4157a2d338bd9e#npm:0.10.0"],\
