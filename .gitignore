@@ -29,8 +29,16 @@ lcov.info
 # Turborepo
 .turbo/
 
-# Yarn
-.yarn/
+# Yarn (keep releases/plugins tracked)
+.yarn/*
+!.yarn/releases
+!.yarn/releases/**
+!.yarn/plugins
+!.yarn/plugins/**
+!.yarn/sdks
+!.yarn/sdks/**
+!.yarn/versions
+!.yarn/versions/**
 
 # intellij
 .idea/
