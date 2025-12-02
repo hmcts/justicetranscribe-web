@@ -22,7 +22,7 @@
     "format": "biome format src/ --write"
   },
   "peerDependencies": {
-    "express": "^5.1.0"
+    "express": "^5.2.0"
   },
   "dependencies": {
     "@hmcts/postgres-prisma": "workspace:*",
