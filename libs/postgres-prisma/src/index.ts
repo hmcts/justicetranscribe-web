@@ -1,4 +1,6 @@
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
+import { Pool } from "pg";
 
 // Construct DATABASE_URL from individual env vars if available
 if (process.env.POSTGRES_HOST && process.env.POSTGRES_USER && process.env.POSTGRES_PASSWORD && process.env.POSTGRES_PORT && process.env.POSTGRES_DATABASE) {
@@ -7,7 +9,13 @@ if (process.env.POSTGRES_HOST && process.env.POSTGRES_USER && process.env.POSTGR
 }
 
 // Default to local PostgreSQL if DATABASE_URL is not set
-process.env.DATABASE_URL ??= "postgresql://hmcts@localhost:5432/postgres";
+process.env.DATABASE_URL ??= "postgresql://postgres2:password@localhost:5432/postgres2";
+
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL
+});
+
+const adapter = new PrismaPg(pool);
 
 const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined;
@@ -16,6 +24,7 @@ const globalForPrisma = globalThis as unknown as {
 export const prisma =
   globalForPrisma.prisma ??
   new PrismaClient({
+    adapter,
     log: process.env.NODE_ENV === "development" ? ["query", "error", "warn"] : ["error"]
   });
 
